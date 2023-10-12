@@ -23,11 +23,11 @@ namespace DataAccessLayer
             while (dr.Read())
             {
                 EntityKasa ent=new EntityKasa();
-                ent.Dolar = int.Parse(dr["DOLAR"].ToString());
-                ent.Euro = int.Parse(dr["EURO"].ToString());
-                ent.Pound = int.Parse(dr["POUND"].ToString());
-                ent.Japonyen = int.Parse(dr["JAPONYEN"].ToString());
-                ent.TurkLıra= int.Parse(dr["TURKLIRA"].ToString());
+                ent.Dolar = double.Parse(dr["DOLAR"].ToString());
+                ent.Euro = double.Parse(dr["EURO"].ToString());
+                ent.Pound = double.Parse(dr["POUND"].ToString());
+                ent.Japonyen = double.Parse(dr["JAPONYEN"].ToString());
+                ent.TurkLıra= double.Parse(dr["TURKLIRA"].ToString());
                 Kasa.Add(ent);
             }
             dr.Close();
@@ -38,13 +38,13 @@ namespace DataAccessLayer
         {
             try
             {
-                SqlCommand komut2 = new SqlCommand("UPDATE TBLKASA SET " +
-                    "DOLAR = DOLAR + @Dolar, " +
-                    "EURO = EURO + @Euro, " +
-                    "POUND = POUND + @Pound, " +
-                    "TURKLIRA = TURKLIRA + @TurkLira, " +
-                    "JAPONYEN = JAPONYEN + @JaponYen " +
-                    "WHERE KASAID = 1", Baglanti.conn);
+                SqlCommand komut2 = new SqlCommand("UPDATE TBLDOVIZKASA SET " +
+                    "DOLAR = @Dolar, " +
+                    "EURO =  @Euro, " +
+                    "POUND =  @Pound, " +
+                    "TURKLIRA =  @TurkLira, " +
+                    "JAPONYEN = @JaponYen " +
+                    "WHERE ID = 1", Baglanti.conn);
 
                 komut2.Parameters.AddWithValue("@Dolar", ent.Dolar);
                 komut2.Parameters.AddWithValue("@Euro", ent.Euro);

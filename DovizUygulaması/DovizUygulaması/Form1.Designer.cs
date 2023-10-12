@@ -67,22 +67,22 @@
             this.LblJYenAlis = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
+            this.LblTurkLıra = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.label21 = new System.Windows.Forms.Label();
+            this.LblJaponYen = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.LblPound = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.LblEuro = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.LblDolar = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.LblEuro = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.label19 = new System.Windows.Forms.Label();
-            this.LblPound = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label21 = new System.Windows.Forms.Label();
-            this.LblJaponYen = new System.Windows.Forms.Label();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.label17 = new System.Windows.Forms.Label();
-            this.LblTurkLıra = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -90,11 +90,11 @@
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
+            this.panel9.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -224,7 +224,7 @@
             this.groupBox1.Controls.Add(this.TxtKur);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
-            this.groupBox1.Location = new System.Drawing.Point(331, 130);
+            this.groupBox1.Location = new System.Drawing.Point(331, 111);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(499, 247);
             this.groupBox1.TabIndex = 11;
@@ -531,112 +531,37 @@
             this.panel5.Size = new System.Drawing.Size(886, 98);
             this.panel5.TabIndex = 13;
             // 
-            // panel6
+            // panel10
             // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(32)))), ((int)(((byte)(95)))));
-            this.panel6.Controls.Add(this.label7);
-            this.panel6.Controls.Add(this.LblDolar);
-            this.panel6.Location = new System.Drawing.Point(10, 20);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(206, 47);
-            this.panel6.TabIndex = 0;
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(32)))), ((int)(((byte)(95)))));
+            this.panel10.Controls.Add(this.label17);
+            this.panel10.Controls.Add(this.LblTurkLıra);
+            this.panel10.Location = new System.Drawing.Point(434, 20);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(206, 47);
+            this.panel10.TabIndex = 4;
             // 
-            // label7
+            // label17
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(15, 12);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(67, 22);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "Dolar:";
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.ForeColor = System.Drawing.Color.White;
+            this.label17.Location = new System.Drawing.Point(28, 12);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(28, 22);
+            this.label17.TabIndex = 2;
+            this.label17.Text = "₺:";
             // 
-            // LblDolar
+            // LblTurkLıra
             // 
-            this.LblDolar.AutoSize = true;
-            this.LblDolar.BackColor = System.Drawing.Color.Transparent;
-            this.LblDolar.ForeColor = System.Drawing.Color.White;
-            this.LblDolar.Location = new System.Drawing.Point(78, 12);
-            this.LblDolar.Name = "LblDolar";
-            this.LblDolar.Size = new System.Drawing.Size(21, 22);
-            this.LblDolar.TabIndex = 3;
-            this.LblDolar.Text = "0";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(401, 454);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(63, 22);
-            this.label16.TabIndex = 1;
-            this.label16.Text = "KASA";
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(32)))), ((int)(((byte)(95)))));
-            this.panel7.Controls.Add(this.label13);
-            this.panel7.Controls.Add(this.LblEuro);
-            this.panel7.Location = new System.Drawing.Point(222, 20);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(206, 47);
-            this.panel7.TabIndex = 1;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(15, 12);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(62, 22);
-            this.label13.TabIndex = 2;
-            this.label13.Text = "Euro:";
-            // 
-            // LblEuro
-            // 
-            this.LblEuro.AutoSize = true;
-            this.LblEuro.BackColor = System.Drawing.Color.Transparent;
-            this.LblEuro.ForeColor = System.Drawing.Color.White;
-            this.LblEuro.Location = new System.Drawing.Point(72, 12);
-            this.LblEuro.Name = "LblEuro";
-            this.LblEuro.Size = new System.Drawing.Size(21, 22);
-            this.LblEuro.TabIndex = 3;
-            this.LblEuro.Text = "0";
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(32)))), ((int)(((byte)(95)))));
-            this.panel8.Controls.Add(this.label19);
-            this.panel8.Controls.Add(this.LblPound);
-            this.panel8.Location = new System.Drawing.Point(646, 20);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(206, 47);
-            this.panel8.TabIndex = 2;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(17, 12);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(78, 22);
-            this.label19.TabIndex = 2;
-            this.label19.Text = "Pound:";
-            // 
-            // LblPound
-            // 
-            this.LblPound.AutoSize = true;
-            this.LblPound.BackColor = System.Drawing.Color.Transparent;
-            this.LblPound.ForeColor = System.Drawing.Color.White;
-            this.LblPound.Location = new System.Drawing.Point(90, 12);
-            this.LblPound.Name = "LblPound";
-            this.LblPound.Size = new System.Drawing.Size(21, 22);
-            this.LblPound.TabIndex = 3;
-            this.LblPound.Text = "0";
+            this.LblTurkLıra.AutoSize = true;
+            this.LblTurkLıra.BackColor = System.Drawing.Color.Transparent;
+            this.LblTurkLıra.ForeColor = System.Drawing.Color.White;
+            this.LblTurkLıra.Location = new System.Drawing.Point(52, 12);
+            this.LblTurkLıra.Name = "LblTurkLıra";
+            this.LblTurkLıra.Size = new System.Drawing.Size(21, 22);
+            this.LblTurkLıra.TabIndex = 3;
+            this.LblTurkLıra.Text = "0";
             // 
             // panel9
             // 
@@ -653,54 +578,129 @@
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.Color.Transparent;
             this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(8, 12);
+            this.label21.Location = new System.Drawing.Point(28, 12);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(110, 22);
+            this.label21.Size = new System.Drawing.Size(28, 22);
             this.label21.TabIndex = 2;
-            this.label21.Text = "JaponYen:";
+            this.label21.Text = "¥:";
             // 
             // LblJaponYen
             // 
             this.LblJaponYen.AutoSize = true;
             this.LblJaponYen.BackColor = System.Drawing.Color.Transparent;
             this.LblJaponYen.ForeColor = System.Drawing.Color.White;
-            this.LblJaponYen.Location = new System.Drawing.Point(113, 12);
+            this.LblJaponYen.Location = new System.Drawing.Point(51, 12);
             this.LblJaponYen.Name = "LblJaponYen";
             this.LblJaponYen.Size = new System.Drawing.Size(21, 22);
             this.LblJaponYen.TabIndex = 3;
             this.LblJaponYen.Text = "0";
             // 
-            // panel10
+            // panel8
             // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(32)))), ((int)(((byte)(95)))));
-            this.panel10.Controls.Add(this.label17);
-            this.panel10.Controls.Add(this.LblTurkLıra);
-            this.panel10.Location = new System.Drawing.Point(434, 20);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(206, 47);
-            this.panel10.TabIndex = 4;
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(32)))), ((int)(((byte)(95)))));
+            this.panel8.Controls.Add(this.label19);
+            this.panel8.Controls.Add(this.LblPound);
+            this.panel8.Location = new System.Drawing.Point(646, 20);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(206, 47);
+            this.panel8.TabIndex = 2;
             // 
-            // label17
+            // label19
             // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(8, 12);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(113, 22);
-            this.label17.TabIndex = 2;
-            this.label17.Text = "TürkLirası:";
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.ForeColor = System.Drawing.Color.White;
+            this.label19.Location = new System.Drawing.Point(30, 12);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(28, 22);
+            this.label19.TabIndex = 2;
+            this.label19.Text = "£:";
             // 
-            // LblTurkLıra
+            // LblPound
             // 
-            this.LblTurkLıra.AutoSize = true;
-            this.LblTurkLıra.BackColor = System.Drawing.Color.Transparent;
-            this.LblTurkLıra.ForeColor = System.Drawing.Color.White;
-            this.LblTurkLıra.Location = new System.Drawing.Point(116, 12);
-            this.LblTurkLıra.Name = "LblTurkLıra";
-            this.LblTurkLıra.Size = new System.Drawing.Size(21, 22);
-            this.LblTurkLıra.TabIndex = 3;
-            this.LblTurkLıra.Text = "0";
+            this.LblPound.AutoSize = true;
+            this.LblPound.BackColor = System.Drawing.Color.Transparent;
+            this.LblPound.ForeColor = System.Drawing.Color.White;
+            this.LblPound.Location = new System.Drawing.Point(54, 12);
+            this.LblPound.Name = "LblPound";
+            this.LblPound.Size = new System.Drawing.Size(21, 22);
+            this.LblPound.TabIndex = 3;
+            this.LblPound.Text = "0";
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(32)))), ((int)(((byte)(95)))));
+            this.panel7.Controls.Add(this.label13);
+            this.panel7.Controls.Add(this.LblEuro);
+            this.panel7.Location = new System.Drawing.Point(222, 20);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(206, 47);
+            this.panel7.TabIndex = 1;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(28, 12);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(28, 22);
+            this.label13.TabIndex = 2;
+            this.label13.Text = "€:";
+            // 
+            // LblEuro
+            // 
+            this.LblEuro.AutoSize = true;
+            this.LblEuro.BackColor = System.Drawing.Color.Transparent;
+            this.LblEuro.ForeColor = System.Drawing.Color.White;
+            this.LblEuro.Location = new System.Drawing.Point(52, 12);
+            this.LblEuro.Name = "LblEuro";
+            this.LblEuro.Size = new System.Drawing.Size(21, 22);
+            this.LblEuro.TabIndex = 3;
+            this.LblEuro.Text = "0";
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(32)))), ((int)(((byte)(95)))));
+            this.panel6.Controls.Add(this.label7);
+            this.panel6.Controls.Add(this.LblDolar);
+            this.panel6.Location = new System.Drawing.Point(10, 20);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(206, 47);
+            this.panel6.TabIndex = 0;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(32, 12);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(28, 22);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "$:";
+            // 
+            // LblDolar
+            // 
+            this.LblDolar.AutoSize = true;
+            this.LblDolar.BackColor = System.Drawing.Color.Transparent;
+            this.LblDolar.ForeColor = System.Drawing.Color.White;
+            this.LblDolar.Location = new System.Drawing.Point(56, 12);
+            this.LblDolar.Name = "LblDolar";
+            this.LblDolar.Size = new System.Drawing.Size(21, 22);
+            this.LblDolar.TabIndex = 3;
+            this.LblDolar.Text = "0";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(401, 454);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(63, 22);
+            this.label16.TabIndex = 1;
+            this.label16.Text = "KASA";
             // 
             // Form1
             // 
@@ -735,16 +735,16 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
